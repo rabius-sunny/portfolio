@@ -1,0 +1,26 @@
+.qoute {
+    display: flex;
+    justify-content: center;
+}
+.inQuote {
+    padding: 40px;
+    width: 700px;
+}
+.innerQuote {
+    background: #00343d;
+    position: relative;
+    padding: 30px 20px 20px 60px;
+    border-radius: 8px;
+    border: 2px solid #00d6d652;
+}
+.innerQuote h3 {color: #fff;}
+.innerQuote p>small {font-style: italic;}
+.qouteImg img {
+    position: relative;
+    display: block;
+    z-index: 1;
+    top: 40px;
+    left: -40px;
+    width: 80px;
+    height: 80px;
+}

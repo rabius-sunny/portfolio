@@ -1,0 +1,29 @@
+.card {
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+    border: 2px solid #00d6d6;
+    border-radius: 6px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.cardInfo {
+    display: none;
+    transition: all 0.5s;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    padding: 15px 20px;
+}
+.card:hover .cardInfo{
+    display: block;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+.card:hover img {
+    opacity: 0.2;
+}

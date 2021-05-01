@@ -1,0 +1,18 @@
+.achieve {
+    background: #00343d;
+    color: #00d6d6;
+    padding: 25px 10px 15px;
+    margin: 15px;
+    border: 2px solid #00d6d652;
+    border-radius: 10px;
+    text-align: center;
+}
+.achieve h1 {
+    font-size: 45px;
+    margin: -5px 0;
+    font-weight: 300;
+}
+.achieve h4 {font-weight: 500;}
+.achieve svg {
+    font-size: 40px;
+}

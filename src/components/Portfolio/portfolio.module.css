@@ -1,0 +1,21 @@
+.heading{
+    background: #00343d;
+    padding: 40px;
+}
+.heading>h1 {
+    font-size: 35px;
+    color: #00d6d6;
+}
+.card {
+    margin: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+}
+.card img {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+.card p {
+    padding: 25px 15px;
+    margin-bottom: 20px;
+}

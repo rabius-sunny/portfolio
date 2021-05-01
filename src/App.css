@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+body {
+    background-color: #007eff;
+}
+p {
+    color: #a4d2d6;
+}
+a {
+    text-decoration: none !important;
+    color: #fff;
+}
+.main {
+    background: #002a32;
+    margin: 40px;
+    border-radius: 25px;
+}
+section {
+    margin: 50px 0;
+}
+
+.header__name {
+    font-family: 'Goldman' !important;
+    font-size: 25px;
+}
+.nav__link {
+    font-family: 'Goldman' !important;
+    font-size: 16px;
+}
+.sectionTitle, .sectionTitle2 {
+    font-size: 40px;
+    color: #00d6d6;
+    border-left: 3px solid #27727b;
+    font-family: 'Goldman' !important;
+    font-weight: 400;
+    padding: 10px;
+}
+.sectionTitle2{margin-bottom: 25px;}
+.myBtn {
+    padding: 10px 30px;
+    letter-spacing: 5px;
+    background: #00d6d6;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.myBtn:hover {
+    background: #00d6d691;
+    color: #f3f3f3;
+}
+.myBtn:focus {
+    outline: 0;
+    background: #00d6d6;
+}
+.globalBtn__primary {
+    background: #00d6d6;
+    color:#fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+@media (max-width: 425px){
+    .main {margin: 10px;}
+}
+@media (max-width: 959px) {
+    a { color: #007eff}
+}

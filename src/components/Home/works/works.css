@@ -1,0 +1,11 @@
+.work {
+    display: flex;
+    padding: 15px;
+}
+.work .icon {padding-right: 20px;}
+.work .icon>svg {
+    font-size: 2.5rem;
+    color: #00d6d6;
+}
+.work h3 {color: #00d6d6; padding-bottom: 10px;}
+.work p {font-size: 14px;}
