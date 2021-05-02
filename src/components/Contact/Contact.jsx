@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Navigation from '../Home/navigation/Navigation';
@@ -16,22 +16,15 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-function Contact() {
+const Contact = () => {
 
     const classes = useStyles();
-    const [data, setData] = useState({
-        name: '',
-        email: '',
-        message: ''
-    })
-    const handleChange = e => {
-        let formData = { ...data }
-        formData[e.target.name] = e.target.value
-        setData(formData)
-    }
     const handleSubmit = e => {
-        e.preventDefault()
-        console.log(data)
+        e.preventDefault();
+        emailjs.sendForm('gmail', 'template_1es8u2q', e.target, 'user_XnfZgk3FK10hADySIkJx1')
+            .then(result => console.log(result.text))
+            .catch(error => console.log(error.text))
+        e.target.reset()
     }
 
     return (
@@ -40,11 +33,10 @@ function Contact() {
             <Container>
                 <div className="contact">
                     <form onSubmit={handleSubmit} className={classes.root}>
-                        <TextField onChange={handleChange} id="name" name="name" label="Your Name" /> <br />
-                        <TextField onChange={handleChange} required id="email" name="email" label="Email Address" /> <br /> <br />
-                        <TextField onChange={handleChange} required
+                        <TextField name="name" label="Your Name" /> <br />
+                        <TextField required name="email" label="Email Address" /> <br /> <br />
+                        <TextField required
                             name="message"
-                            id="message"
                             label="Your Message"
                             multiline
                             rows={4}

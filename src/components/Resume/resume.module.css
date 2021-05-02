@@ -1,0 +1,37 @@
+.bg {
+    background-image: url('../../images/ocean.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg h1 {
+    font-size: 35px;
+    font-family: 'Goldman' !important;
+    color: #002a32;
+}
+.bg .bio {
+    color: #002a32 !important;
+    font-size: 25px;
+}
+.bg ul li {
+    display: inline;
+    margin: 10px;
+}
+.bg svg {
+    font-size: 30px;
+}
+.bg ul li a {
+    color: #002a32;
+    transition: all .3s ease-in-out;
+}
+.bg ul li a:hover {
+    color: #002a3250;
+}
+.resume table {
+    width: 100%;
+}

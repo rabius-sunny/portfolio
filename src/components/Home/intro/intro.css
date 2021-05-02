@@ -38,7 +38,7 @@
     border: 2px solid #00d6d6;
 }
 .dudeBtn a:first-child:hover {
-    background: #002a32;
+    background: transparent;
     border: 2px solid #0dffff;
     color: #fff;
 }

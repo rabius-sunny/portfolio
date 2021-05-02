@@ -10,7 +10,7 @@ function PortFolio(props) {
     return (
         <div>
             <Navigation />
-            <div className={classes.heading}>
+            <div className="heading">
                 <h1 className="header__name">Portfolio</h1>
             </div>
             <section>

@@ -1,6 +1,5 @@
 import classes from "./skills.module.css"
 import { Container, Grid } from "@material-ui/core"
-import Progress from "../material-customized/CustomLinearProgress"
 
 const Skills = () => {
     return (

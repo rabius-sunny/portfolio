@@ -82,7 +82,7 @@ function Intro() {
                             integrations and databases meeting the highest standards, best
                             practices and speed.</p>
                             <div className="dudeBtn">
-                                <a href="https://drive.google.com/uc?export=download&id=1CF98NNCleSn9timmjDYPn1NUo19LQnyB" target="_blank">Download CV</a><Link to="/contact">Contact</Link>
+                                <a href="https://drive.google.com/uc?export=download&id=1CF98NNCleSn9timmjDYPn1NUo19LQnyB" target="_blank" rel="noreferrer">Download CV</a><Link to="/contact">Contact</Link>
                             </div>
                         </div>
                     </Grid>

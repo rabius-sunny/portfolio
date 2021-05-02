@@ -2,9 +2,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif !important;
 }
 body {
+    font-family: 'Poppins', sans-serif;
     background-color: #007eff;
 }
 p {
@@ -22,9 +22,16 @@ a {
 section {
     margin: 50px 0;
 }
-
-.header__name {
+.heading{
+    background: #00343d;
+    padding: 40px;
+}
+.heading>h1 {
+    font-size: 35px;
+    color: #00d6d6;
     font-family: 'Goldman' !important;
+}
+.header__name {
     font-size: 25px;
 }
 .nav__link {
