@@ -1,65 +1,9 @@
-import React from 'react'
+import Typical from "react-typical";
 import Grid from '@material-ui/core/Grid'
 import { Container } from '@material-ui/core'
 import './intro.css'
 import img from '../../../images/thumbnail.png'
 import { Link } from 'react-router-dom'
-
-var TxtType = function(el, toRotate, period) {
-    this.toRotate = toRotate;
-    this.el = el;
-    this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
-    this.txt = '';
-    this.tick();
-    this.isDeleting = false;
-};
-
-TxtType.prototype.tick = function() {
-    var i = this.loopNum % this.toRotate.length;
-    var fullTxt = this.toRotate[i];
-
-    if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
-    } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
-    }
-
-    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-    var that = this;
-    var delta = 200 - Math.random() * 100;
-
-    if (this.isDeleting) { delta /= 2; }
-
-    if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
-    } else if (this.isDeleting && this.txt === '') {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
-    }
-
-    setTimeout(function() {
-    that.tick();
-    }, delta);
-};
-
-window.onload = function() {
-    var elements = document.getElementsByClassName('typewrite');
-    for (var i=0; i<elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-type');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-          new TxtType(elements[i], JSON.parse(toRotate), period);
-        }
-    }
-    var css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-    document.body.appendChild(css);
-};
 
 function Intro() {
     return (
@@ -73,9 +17,17 @@ function Intro() {
                     </Grid>
                     <Grid item md={7}>
                         <div className="dudeBio">
-                                <p style={{fontSize: '30px'}} className="typewrite" data-period="2000" data-type='[ "Front end designer", "Back end developer", "Junior Full-stack developer", "Writer" ]'>
-                                    <span className="wrap"></span>
-                                </p>
+                            <p>
+                                <Typical
+                                    steps={[
+                                        "Front end designer", 2000,
+                                        "Back end developer", 2000,
+                                        "Junior Full-stack developer", 2000,
+                                        "Writer", 2000
+                                    ]}
+                                    loop={Infinity}
+                                />
+                            </p>
                             <h1>Rabius Sunny</h1>
                             <p>Junior Web Developer adept at contributing to collaborative working environments, finding
                             solutions and determining customer satisfaction. Designed and developed web applications across the latest technologies and tools, multiple APIs, third-party

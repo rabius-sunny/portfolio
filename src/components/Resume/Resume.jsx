@@ -1,3 +1,4 @@
+import Typical from "react-typical";
 import { Link } from 'react-router-dom'
 import logo from '../../images/thumbnail.png'
 import classes from './resume.module.css'
@@ -18,8 +19,16 @@ const Resume = () => {
                 <Container>
                     <img src={logo} width="100px" alt="logo" />
                     <h1>I'm Rabius Sunny</h1>
-                    <p className={`typewrite ${classes.bio}`} data-period="2000" data-type='[ "Front end designer", "Back end developer", "Junior Full-stack developer", "Writer" ]'>
-                        <span className="wrap"></span>
+                    <p>
+                        <Typical
+                            steps={[
+                                "Front end designer", 2000,
+                                "Back end developer", 2000,
+                                "Junior Full-stack developer", 2000,
+                                "Writer", 2000
+                            ]}
+                            loop={Infinity}
+                        />
                     </p>
                     <div className="social">
                         <ul>
