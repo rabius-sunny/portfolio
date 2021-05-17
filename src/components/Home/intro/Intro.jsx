@@ -2,7 +2,7 @@ import Typical from "react-typical";
 import Grid from '@material-ui/core/Grid'
 import { Container } from '@material-ui/core'
 import './intro.css'
-import img from '../../../images/thumbnail.png'
+import img from '../../../images/pic2.png'
 import { Link } from 'react-router-dom'
 
 function Intro() {

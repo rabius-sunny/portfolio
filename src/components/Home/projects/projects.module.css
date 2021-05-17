@@ -1,29 +1,55 @@
 .card {
-    margin-top: 30px;
-    padding: 20px;
-    position: relative;
+    margin: 30px 15px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #00d6d687;
     overflow: hidden;
+    position: relative;
 }
 .card img {
     width: 100%;
-    border: 2px solid #00d6d6;
-    border-radius: 6px;
+    border-radius: 6px 6px 0 0;
     transition: all 0.5s;
-    cursor: pointer;
+    height: 250px;
 }
 .cardInfo {
-    display: none;
     transition: all 0.5s;
-    cursor: pointer;
-    position: absolute;
-    top: 10%;
     padding: 15px 20px;
 }
-.card:hover .cardInfo{
-    display: block;
+.card:hover{
     color: #fff;
     transition: all 0.5s ease-in-out;
 }
 .card:hover img {
     opacity: 0.2;
+}
+.linkBtn {
+    display: none;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+}
+.linkBtn ul {
+    text-align: center;
+}
+.linkBtn ul li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px 8px;
+    border-radius: 17px;
+    transition: all .3s ease-in-out;
+} 
+.linkBtn ul li a {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+}
+.linkBtn ul li:nth-child(even) {background: #f73378}
+.linkBtn ul li:nth-child(even):hover {background: #ff5b94}
+.linkBtn ul li:nth-child(odd) {background: #2196f3}
+.linkBtn ul li:nth-child(odd):hover {background: #42aaff}
+.linkBtn ul li a svg {
+    margin-right: 5px;
+}
+.card:hover .linkBtn {
+    display: block;
 }

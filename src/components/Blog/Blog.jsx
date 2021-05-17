@@ -46,7 +46,8 @@ export default function Blog(props) {
         <>
             <Navigation />
             <Container>
-                <Grid container>
+                <h2 style={{height: '50vh', color: 'white'}}>Blog is comming...</h2>
+                {/* <Grid container>
                     <Grid item md={4} sm={6} xs={12}>
                         <Card className={classes.root}>
                             <CardHeader
@@ -143,7 +144,7 @@ export default function Blog(props) {
                             </CardContent>
                         </Card>
                     </Grid>
-                </Grid>
+                </Grid> */}
             </Container>
             <ScrollTop {...props}>
                 <Fab color="secondary" size="small" aria-label="scroll back to top">
