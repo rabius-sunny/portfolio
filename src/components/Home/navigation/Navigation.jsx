@@ -15,6 +15,7 @@ function Navigation() {
     <div id="back-to-top-anchor">
       <Header
         color="transparent"
+        style={{fontFamily: 'Goldman'}}
         brand={<Link to="/" className="header__name">Rabius Sunny</Link>}
 
         rightLinks={

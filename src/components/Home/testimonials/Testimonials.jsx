@@ -15,9 +15,9 @@ function Testimonials() {
                         <div className="inQuote">
                             <div className="qouteImg"><img src={logo} alt="" /></div>
                             <div className="innerQuote">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit doloremque culpa cum, architecto nobis blanditiis harum odit dignissimos iure magnam!</p>
-                                <h3>Mr. Js Dude 1</h3>
-                                <p><small>Software Engineer</small></p>
+                                <p>Sunny is very dedicated and hard worker. He've been working with us for 6 years, I found him pious and honest.</p>
+                                <h3>Mr. Rezoan Hassan</h3>
+                                <p><small>CEO, Razin Car Decora</small></p>
                             </div>
                         </div>
                     </div>
@@ -25,9 +25,9 @@ function Testimonials() {
                         <div className="inQuote">
                             <div className="qouteImg"><img src={logo} alt="" /></div>
                             <div className="innerQuote">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit doloremque culpa cum, architecto nobis blanditiis harum odit dignissimos iure magnam!</p>
-                                <h3>Mr. Js Dude 2</h3>
-                                <p><small>Software Engineer</small></p>
+                                <p>Sunny is very dedicated and hard worker. He've been working with us for 6 years, I found him pious and honest.</p>
+                                <h3>Mr. Rezoan Hassan</h3>
+                                <p><small>CEO, Razin Car Decora</small></p>
                             </div>
                         </div>
                     </div>
@@ -35,9 +35,9 @@ function Testimonials() {
                         <div className="inQuote">
                             <div className="qouteImg"><img src={logo} alt="" /></div>
                             <div className="innerQuote">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit doloremque culpa cum, architecto nobis blanditiis harum odit dignissimos iure magnam!</p>
-                                <h3>Mr. Js Dude 3</h3>
-                                <p><small>Software Engineer</small></p>
+                                <p>Sunny is very dedicated and hard worker. He've been working with us for 6 years, I found him pious and honest.</p>
+                                <h3>Mr. Rezoan Hassan</h3>
+                                <p><small>CEO, Razin Car Decora</small></p>
                             </div>
                         </div>
                     </div>

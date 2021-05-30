@@ -16,28 +16,28 @@ function Achieves() {
                         <div className="achieve">
                             <FavoriteBorderIcon />
                             <h4>Happy Clients</h4>
-                            <h1>030</h1>
+                            <h1>003</h1>
                         </div>
                     </Grid>
                     <Grid item xs={12} sm={6} md={3}>
                         <div className="achieve">
                             <WatchIcon />
                             <h4>Working Hours</h4>
-                            <h1>0,480</h1>
+                            <h1>0,680</h1>
                         </div>
                     </Grid>
                     <Grid item xs={12} sm={6} md={3}>
                         <div className="achieve">
                             <StarBorderIcon />
                             <h4>Awards Won</h4>
-                            <h1>05</h1>
+                            <h1>02</h1>
                         </div>
                     </Grid>
                     <Grid item xs={12} sm={6} md={3}>
                         <div className="achieve">
                             <LocalCafeIcon />
                             <h4>Coffee Consumed</h4>
-                            <h1>0,086</h1>
+                            <h1>0,026</h1>
                         </div>
                     </Grid>
                 </Grid>

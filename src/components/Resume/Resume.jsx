@@ -1,6 +1,6 @@
 import Typical from "react-typical";
 import { Link } from 'react-router-dom'
-import logo from '../../images/thumbnail.png'
+import logo from '../../images/pic2.png'
 import classes from './resume.module.css'
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';

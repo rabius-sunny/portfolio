@@ -11,17 +11,17 @@ function Footer() {
                 <div className="footer">
                     <div className="social">
                         <ul>
-                            <li><a href="https://github.com/rabius-sunny"><GitHubIcon /></a></li>
-                            <li><a href="https://twitter.com"><TwitterIcon /></a></li>
-                            <li><a href="https://linkedin.com/in/rabius-sunny"><LinkedInIcon /></a></li>
+                            <li><a href="https://github.com/rabius-sunny" target="_blank" rel="noreferrer"><GitHubIcon /></a></li>
+                            <li><a href="https://twitter.com" target="_blank" rel="noreferrer"><TwitterIcon /></a></li>
+                            <li><a href="https://linkedin.com/in/rabius-sunny" target="_blank" rel="noreferrer"><LinkedInIcon /></a></li>
                         </ul>
                     </div>
                     <div className="copyRight">
-                        <p>@ 2021, All Right Reserved. JsDude</p>
+                        <p>Copyright @ 2021 || All Right Reserved</p>
                     </div>
                 </div>
                 <div style={{ textAlign: 'center' }}>
-                    <p>This is a Material UI Project by <a href="https://facebook.com/rabibinsalam">Rabius Sunny</a></p>
+                    <p>Potfolio || <a href="https://facebook.com/rabibinsalam" target="_blank" rel="noreferrer">Rabius Sunny</a></p>
                 </div>
             </div>
         </>
