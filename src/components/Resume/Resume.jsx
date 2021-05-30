@@ -39,7 +39,7 @@ const Resume = () => {
                         </ul>
                     </div>
                     <div className="dudeBtn" style={{ padding: '30px 0' }}>
-                        <a href="https://drive.google.com/uc?export=download&id=1CF98NNCleSn9timmjDYPn1NUo19LQnyB" target="_blank" rel="noreferrer">Download CV</a><Link to="/contact">Contact</Link>
+                        <a href="https://drive.google.com/uc?export=download&id=1SoEau1dfnTpKhf9axwTZ5-ofTKWF6B-B" target="_blank" rel="noreferrer">Download CV</a><Link to="/contact">Contact</Link>
                     </div>
                 </Container>
             </div>
