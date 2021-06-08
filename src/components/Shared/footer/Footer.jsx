@@ -21,7 +21,7 @@ function Footer() {
                     </div>
                 </div>
                 <div style={{ textAlign: 'center' }}>
-                    <p>Potfolio || <a href="https://facebook.com/rabibinsalam" target="_blank" rel="noreferrer">Rabius Sunny</a></p>
+                    <p>Potfolio || <a href="https://rabius-sunny.netlify.app">Rabius Sunny</a></p>
                 </div>
             </div>
         </>

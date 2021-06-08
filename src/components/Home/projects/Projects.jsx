@@ -54,7 +54,7 @@ const Projects = () => {
                         </div>
                     </Grid>
                 </Grid>
-                <div style={{ textAlign: 'center' }}><Link to="/portfolio" className="globalBtn__primary">See more</Link></div>
+                <div style={{ textAlign: 'center', margin: '20px 0' }}><Link to="/portfolio" className="globalBtn__primary">See more</Link></div>
             </Container>
         </section>
     )

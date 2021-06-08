@@ -22,7 +22,7 @@ function Intro() {
                                     steps={[
                                         "Front end designer", 2000,
                                         "Back end developer", 2000,
-                                        "Junior Full-stack developer", 2000,
+                                        "Full-stack developer", 2000,
                                         "Writer", 2000
                                     ]}
                                     loop={Infinity}

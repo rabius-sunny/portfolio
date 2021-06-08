@@ -16,11 +16,12 @@ const Resume = () => {
                 <h1 className="header__name"><Link to="/">Rabius Sunny</Link></h1>
             </div>
             <div className={classes.bg}>
-                <Container>
+                <Container className={classes.typical}>
                     <img src={logo} width="100px" alt="logo" />
                     <h1>I'm Rabius Sunny</h1>
                     <p>
                         <Typical
+                        
                             steps={[
                                 "Front end designer", 2000,
                                 "Back end developer", 2000,

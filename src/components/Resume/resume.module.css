@@ -35,3 +35,6 @@
 .resume table {
     width: 100%;
 }
+.resume .typical p {
+    color: #002a32 !important
+}
