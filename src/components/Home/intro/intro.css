@@ -1,53 +1,70 @@
-.intro {margin-top: 40px;}
+.intro {
+    margin-top: 40px;
+}
+
 .intro .dudeImg {
     text-align: end;
     padding-right: 25px;
 }
+
 .intro .dudeImg img {
-    width: 80%;
+    width: 100%;
     border: 20px solid#00d6d613;
     border-radius: 50%;
 }
+
 .intro .display {
     display: flex;
     align-items: center;
 }
+
 .intro .display .dudeBio {
     padding: 25px;
     width: 86%;
 }
+
 .dudeBio h1 {
     color: #00d6d6;
     font-size: 55px;
     font-family: 'Goldman' !important;
 }
-.dudeBio p, small {
+
+.dudeBio p,
+small {
     color: #a4d2d6;
     padding: 20px 0;
 }
+
 .dudeBtn a {
     padding: 15px;
     font-weight: 600;
     border-radius: 25px;
     transition: all 0.5s;
 }
-.dudeBtn a:focus {outline: 0;}
+
+.dudeBtn a:focus {
+    outline: 0;
+}
+
 .dudeBtn a:first-child {
     background: #00d6d6;
     color: #fff;
     border: 2px solid #00d6d6;
 }
+
 .dudeBtn a:first-child:hover {
     background: transparent;
     border: 2px solid #0dffff;
     color: #fff;
 }
+
 .dudeBtn a:nth-child(2) {
     margin-left: 15px;
     background: transparent;
     color: #fff;
     border: 2px solid #00d6d6;
 }
+
 .dudeBtn a:nth-child(2):hover {
     background: #00d6d6;
 }
