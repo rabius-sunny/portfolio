@@ -33,7 +33,7 @@ function Intro() {
                 />
               </p>
               <h1>Rabius Sunny (rezoan)</h1>
-              <p>
+              <p style={{ marginBottom: 10 }}>
                 Web Developer adept at contributing to collaborative working
                 environments, finding solutions and determining customer
                 satisfaction. Designed and developed web applications across the
@@ -43,7 +43,7 @@ function Intro() {
               </p>
               <div className='dudeBtn'>
                 <a
-                  href='https://drive.google.com/uc?export=download&id=1ZJdc3z2_y29-UaU6qU7I8HnMQxr31sVl'
+                  href='https://drive.google.com/uc?export=download&id=12CiNuHsVU7MxjY8Aa-7F7rm4uHqT2XoW'
                   target='_blank'
                   rel='noreferrer'
                 >
